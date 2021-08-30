@@ -1,0 +1,141 @@
+body{
+  background: #fff;
+  color: #333;
+  font-family: sans-serif !important;
+  background-color: #e4e4e4 !important;
+}
+
+
+.paste-styled .control-panel .control-panel-pane {
+  flex: 1;
+}
+h3 {
+  font-weight: bold !important;
+  font-size: 25px !important;
+}
+
+
+.paste-styled .step-by-step {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.paste-styled .step-by-step .step-by-step-step[data-active="0"] {
+  opacity: 0;
+  display: none;
+}
+.paste-styled .step-by-step .step-by-step-step .default-content {
+  height: 100%;
+  flex: 1;
+}
+
+.paste-styled .step-by-step .step-by-step-step .step-by-step-stepper {
+  width: 100%;
+  height: 92px;
+  line-height: 92px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.container {
+  display: block;
+  width: 552px !important;
+  margin: 10px auto 100px;
+  background-color: #fff;
+  padding: 0px 10px 10px 22px;
+  border-radius: 10px;
+}
+.step-by-step-step.split-h.animated.fadeIn {
+  margin-right: 51px;
+}
+h3 {
+  text-align: center;
+}
+label {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+
+/* Extra Css */
+.form-group {
+  width: 100%;
+}
+.btn-group{
+  width: 100%;
+}
+
+.default-content {
+  margin-left: 56px;
+  margin-top: 25px;
+}
+.budget-section {
+  margin-top: 25px;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.back {
+  margin-bottom: -53px;
+  margin-top: 62px;
+  margin-left: 54px;
+}
+
+button.btn.btn-primary {
+  margin-left: 55px;
+}
+i.fa.fa-times {
+  float: right;
+  margin-top: 10px;
+}
+
+
+/* button group section */
+button.btn.btn-secondary {
+  background-color: rgb(248, 249, 250);
+  border-color: rgb(206 213 220);
+  color: black;
+}
+button.btn.btn-light {
+  border-color: rgb(206 213 220);
+}
+
+.checkbox-section {
+  margin-top: 20px;
+  color: rgb(150 151 152);
+  font-size: 15px;
+
+}
+p {
+  color: rgb(150 151 152);
+  font-size: 15px;
+}
+
+
+input#number-value {
+  width: 70px;
+  text-align: center;
+  border-radius: 4px;
+  outline: none;
+  border-color: #e4e4e4;
+  border-left: #e4e4e4;
+  border-right: #e4e4e4;
+  border-top: #e4e4e4;
+  
+  
+}
+
+
